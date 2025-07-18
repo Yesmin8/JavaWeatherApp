@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Thème principal -->
+    <style name="Theme.Meto" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/primary_bg</item>
+        <item name="android:statusBarColor">@color/primary_bg</item>
+        <item name="android:navigationBarColor">@color/primary_bg</item>
+        <item name="colorPrimary">@color/primary_bg</item>
+        <item name="colorPrimaryVariant">@color/secondary_bg</item>
+        <item name="colorOnPrimary">@color/text_white</item>
+        <item name="materialButtonStyle">@style/ButtonStyle</item>
+    </style>
+
+    <!-- Thème sans ActionBar -->
+    <style name="Theme.Meto.NoActionBar" parent="Theme.Meto">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

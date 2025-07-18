@@ -1,0 +1,63 @@
+<resources>
+    <!-- Application -->
+    <string name="app_name">Météo</string>
+
+    <!-- Common -->
+    <string name="space"> / </string>
+    <string name="loading_text">Chargement...</string>
+    <string name="retry_button">Réessayer</string>
+    <string name="error_icon_desc">Icône d\'erreur</string>
+    <string name="back_button_desc">Retour</string>
+    <string name="updated_at_format">MISE À JOUR\n%1$s %2$s</string>
+
+    <!-- Search -->
+    <string name="enter_city_name">Entrez une ville</string>
+    <string name="search_icon_desc">Rechercher</string>
+
+    <!-- Weather Data -->
+    <string name="default_city">Paris</string>
+    <string name="default_weather_condition">Ensoleillé</string>
+    <string name="default_temperature">22°C</string>
+    <string name="default_temp_min">18°C</string>
+    <string name="default_temp_max">25°C</string>
+    <string name="default_pressure">1013 mb</string>
+    <string name="default_wind">12 km/h</string>
+    <string name="default_humidity">65%</string>
+    <string name="forecast_title">PRÉVISIONS SUR 5 JOURS</string>
+    <string name="updated_at_first_line">MISE À JOUR</string>
+    <string name="updated_at_second_line">%1$s %2$s</string>
+
+    <!-- Weather Details -->
+    <string name="pressure_label">Pression</string>
+    <string name="pressure_description">Icône de pression atmosphérique</string>
+    <string name="wind_label">Vent</string>
+    <string name="wind_description">Icône de vent</string>
+    <string name="humidity_label">Humidité</string>
+    <string name="humidity_description">Icône d\'humidité</string>
+    <string name="weather_icon_desc">Icône météo</string>
+
+    <!-- Error Messages -->
+    <string name="error_network">Erreur de connexion</string>
+    <string name="error_data">Erreur de données</string>
+    <string name="error_city_not_found">Ville non trouvée</string>
+    <string name="error_location_permission">Permission de localisation requise</string>
+    <string name="error_gps_disabled">GPS désactivé</string>
+    <string name="error_title_network">Problème de connexion</string>
+    <string name="error_message_network">Impossible de se connecter au serveur. Vérifiez votre connexion Internet.</string>
+    <string name="error_title_server">Problème serveur</string>
+    <string name="error_message_server">Le serveur ne répond pas. Veuillez réessayer plus tard.</string>
+    <string name="error_title_location">Localisation indisponible</string>
+    <string name="error_message_location">Impossible d\'obtenir votre position. Utilisez la recherche manuelle.</string>
+    <string name="network_error_message">Pas de connexion Internet. Veuillez vérifier votre connexion.</string>
+    <string name="network_unavailable">Connexion internet toujours indisponible</string>
+    <string name="weather_data_error">Impossible de récupérer les données météo</string>
+    <string name="forecast_error">Aucune prévision disponible</string>
+    <string name="enable_gps_message">Veuillez activer le GPS pour continuer</string>
+    <string name="location_error">Impossible de récupérer votre position</string>
+    <string name="location_permission_denied">Permission refusée. Utilisez la recherche manuelle.</string>
+
+    <!-- Permissions -->
+    <string name="permission_rationale_title">Permission nécessaire</string>
+    <string name="permission_rationale_message">L\'application a besoin de la localisation pour afficher la météo de votre position.</string>
+    <string name="permission_denied_message">Permission de localisation refusée. Utilisez la recherche manuelle.</string>
+</resources>
