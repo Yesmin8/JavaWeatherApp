@@ -125,3 +125,21 @@ private static final String API_KEY = "YOUR_API_KEY_HERE";
 Preview of the Meto application in action:
 
 ![App demo](assets/demo.gif)
+
+
+---
+
+## Future Improvements
+
+This project is still evolving and can be further improved with additional features and refinements.  
+Possible enhancements include:
+
+- Adding weather alerts and notifications  
+- Supporting dark mode and theming options  
+- Integrating a weather map with radar animations  
+- Adding hourly forecast support  
+- Implementing offline caching of recent data  
+- Enhancing error handling and user feedback  
+- Supporting more languages (internationalization)
+
+> Contributions, suggestions, and feature requests are welcome!
